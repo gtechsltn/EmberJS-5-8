@@ -44,7 +44,59 @@ D:\gtechsltn\EmberJS-5-8>nvm use 22
 Now using node v22.11.0 (64-bit)
 ```
 
-## Ember-CLI
+## Install Ember CLI 5.8 globally
 ```
 D:\gtechsltn\EmberJS-5-8>npm install -g ember-cli@5.8.0
+D:\gtechsltn\EmberJS-5-8>ember --version
 ```
+
+## Install Ember CLI 5.8 locally as a development dependency
+```
+D:\gtechsltn\EmberJS-5-8>npm init -y
+D:\gtechsltn\EmberJS-5-8>npm install --save-dev ember-cli@5.8.0
+```
+
+* **npm install**: The command to install packages.
+* **--save-dev**: This flag tells npm to install the package as a development dependency, meaning it's primarily needed during development (building, testing) but not necessarily when the final application is deployed. The information about this dependency will be added to your package.json file under devDependencies.
+* **ember-cli@5.8.0**: Specifies the exact version of Ember CLI you want to install.
+
+### How to Use the Locally Installed Ember CLI:
+
+Using npx: npx is a package runner tool that comes with npm (version 5.2+). It allows you to execute locally installed package executables without specifying the full path. Simply run Ember CLI commands like this from within your project directory:
+
+```
+npx ember --version
+npx ember new my-addon  # Example: creating an addon within the project
+npx ember serve
+```
+
+Using npm scripts: You can define scripts in your package.json file that run Ember CLI commands. Open your package.json and add a "scripts" section (or modify it if it already exists):
+
+```
+{
+  "name": "my-special-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ember serve",
+    "build": "ember build",
+    "test": "ember test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ember-cli": "5.8.0"
+  }
+}
+```
+
+### 
+```
+npm run start   # Runs 'ember serve'
+npm run build   # Runs 'ember build'
+npm run test    # Runs 'ember test'
+```
+
+Then, use npx or npm scripts to run Ember CLI commands. Happy coding from Vietnam!
