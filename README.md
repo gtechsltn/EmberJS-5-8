@@ -108,5 +108,32 @@ You cannot use the new command inside an ember-cli project.
 
 ## Solution
 ```
-npx ember-cli@5.8.0 new modern-portal
+D:\gtechsltn\EmberJS-5-8>npx ember-cli@5.8.0 new modern-portal
+Need to install the following packages:
+ember-cli@5.8.0
+Ok to proceed? (y) y
+
+Ember CLI v5.8.0
+
+Creating a new Ember app in D:\gtechsltn\EmberJS-5-8\modern-portal:
+  create .editorconfig
+  create .ember-cli
+  create ...
+
+Installing packages... This might take a couple of minutes.
+npm: Installed dependencies
+
+Initializing git repository.
+Git: successfully initialized.
+
+Successfully created project modern-portal.
+Get started by typing:
+
+  $ cd modern-portal
+  $ npm start
+
+Happy coding!
+
+D:\gtechsltn\EmberJS-5-8>cd modern-portal
+D:\gtechsltn\EmberJS-5-8\modern-portal> npm start
 ```
