@@ -92,7 +92,7 @@ Using npm scripts: You can define scripts in your package.json file that run Emb
 }
 ```
 
-### 
+Now, you can run these scripts using npm run:
 ```
 npm run start   # Runs 'ember serve'
 npm run build   # Runs 'ember build'
@@ -100,3 +100,13 @@ npm run test    # Runs 'ember test'
 ```
 
 Then, use npx or npm scripts to run Ember CLI commands. Happy coding from Vietnam!
+
+## Error
+```
+You cannot use the new command inside an ember-cli project.
+```
+
+## Solution
+```
+npx ember-cli@5.8.0 new modern-portal
+```
