@@ -139,7 +139,19 @@ D:\gtechsltn\EmberJS-5-8\modern-portal> npm start
 
 > modern-portal@0.0.0 start
 > ember serve
-> ...
+
+
+Running without permission to symlink will degrade build performance.
+See https://cli.emberjs.com/release/appendix/windows/ for details.
+
+
+Build successful (56616ms) – Serving on http://localhost:4200/
+
+Slowest Nodes (totalTime >= 5%)                                                                   | Total (avg)
+--------------------------------------------------------------------------------------------------+---------------------------
+Babel: @ember/test-helpers (1)                                                                    | 23072ms
+ember-auto-import-webpack (1)                                                                     | 21602ms
+
 ```
 
 ## Result
