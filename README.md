@@ -1,10 +1,15 @@
-# Ember.js 5.8
+# Ember.js 5.8 (LTS) vs Ember.js 6.0.1 (LTS)
 * Ember is an open-source JavaScript web framework for building modern web applications.
 * [LTS](https://emberjs.com/releases/lts/) 
 * [Node.js](https://github.com/ember-cli/ember-cli/blob/master/docs/node-support.md)
 * [NVM](https://github.com/coreybutler/nvm-windows)
 * [Ember.js](https://endoflife.date/emberjs)
 * [Windows support]( https://cli.emberjs.com/release/appendix/windows/)
+
+### Diff 01: D:\gtechsltn\EmberJS-5-8\modern-portal\package.json
+### Diff 02: D:\gtechsltn\EmberJS-5-8\modern-portal\config\ember-cli-update.json
+### Diff 03: D:\gtechsltn\EmberJS-5-8\modern-portal\node_modules
+### Diff 04: D:\gtechsltn\EmberJS-5-8\modern-portal\package-lock.json
 
 ```
 C:\Users\ADMIN>D:
@@ -168,7 +173,7 @@ D:\gtechsltn\EmberJS-5-8\modern-portal>npx ember serve --port 5000
 D:\gtechsltn\EmberJS-5-8\modern-portal>npx ember serve -p 5000
 ```
 
-# 1. package.json
+### Diff 01: D:\gtechsltn\EmberJS-5-8\modern-portal\package.json
 ```
 {
   "name": "modern-portal",
@@ -252,7 +257,32 @@ D:\gtechsltn\EmberJS-5-8\modern-portal>npx ember serve -p 5000
 }
 ```
 
-# 2. package-lock.json
+### Diff 02: D:\gtechsltn\EmberJS-5-8\modern-portal\config\ember-cli-update.json
+```
+{
+  "schemaVersion": "1.0.0",
+  "packages": [
+    {
+      "name": "ember-cli",
+      "version": "5.8.0",
+      "blueprints": [
+        {
+          "name": "app",
+          "outputRepo": "https://github.com/ember-cli/ember-new-output",
+          "codemodsSource": "ember-app-codemods-manifest@1",
+          "isBaseBlueprint": true,
+          "options": [
+            "--ci-provider=github"
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
+### Diff 03: D:\gtechsltn\EmberJS-5-8\modern-portal\node_modules
+
+### Diff 04: D:\gtechsltn\EmberJS-5-8\modern-portal\package-lock.json
 ```
 {
   "name": "modern-portal",
