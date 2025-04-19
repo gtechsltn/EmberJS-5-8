@@ -141,3 +141,9 @@ D:\gtechsltn\EmberJS-5-8\modern-portal> npm start
 > ember serve
 > ...
 ```
+
+## Result
+
+This will typically make your application accessible at http://localhost:4200.
+
+![Ember.js](https://github.com/user-attachments/assets/77eded28-34fd-4880-9e50-c801253ca96b)
