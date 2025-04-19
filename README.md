@@ -136,4 +136,8 @@ Happy coding!
 
 D:\gtechsltn\EmberJS-5-8>cd modern-portal
 D:\gtechsltn\EmberJS-5-8\modern-portal> npm start
+
+> modern-portal@0.0.0 start
+> ember serve
+> ...
 ```
