@@ -24,7 +24,28 @@ D:\gtechsltn\EmberJS-5-8>
 
 As of today, Sunday, April 20, 2025, the latest Long Term Support (LTS) version of Ember.js is 5.8. It was promoted to LTS on November 20, 2024.
 
+## Remove node_modules
+
+```
+# Way 1:
+rm -rf node_modules
+# rm: command for removing files or directories.
+# -r: recursive, meaning it will delete the directory and all its contents (subdirectories and files).
+# -f: force, meaning it will not prompt for confirmation and will try to delete even if files are write-protected.
+
+# Way 2:
+rimraf node_modules
+
+# Way 3:
+npx rimraf node_modules
+
+# Way 4: PowerShell
+Remove-Item -Path node_modules -Force -Recurse
+```
+
+
 ## Recommended Node.js Versions:
+
 As of April 2025, the currently supported Active LTS versions of Node.js are v18, v20, and v22.
 
 It is highly recommended to use the most recent Active LTS version of Node.js for the best compatibility and to avoid potential issues.
