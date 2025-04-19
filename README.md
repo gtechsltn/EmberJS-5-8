@@ -4,6 +4,7 @@
 * [Node.js](https://github.com/ember-cli/ember-cli/blob/master/docs/node-support.md)
 * [NVM](https://github.com/coreybutler/nvm-windows)
 * [Ember.js](https://endoflife.date/emberjs)
+* [Windows support]( https://cli.emberjs.com/release/appendix/windows/)
 
 ```
 C:\Users\ADMIN>D:
@@ -135,7 +136,7 @@ Get started by typing:
 Happy coding!
 
 D:\gtechsltn\EmberJS-5-8>cd modern-portal
-D:\gtechsltn\EmberJS-5-8\modern-portal> npm start
+D:\gtechsltn\EmberJS-5-8\modern-portal>npm start
 
 > modern-portal@0.0.0 start
 > ember serve
@@ -159,3 +160,10 @@ ember-auto-import-webpack (1)                                                   
 This will typically make your application accessible at http://localhost:4200.
 
 ![Ember.js](https://github.com/user-attachments/assets/77eded28-34fd-4880-9e50-c801253ca96b)
+
+# Run on other port (not 4200)
+```
+D:\gtechsltn\EmberJS-5-8\modern-portal>ember serve --port 5000
+D:\gtechsltn\EmberJS-5-8\modern-portal>npx ember serve --port 5000
+D:\gtechsltn\EmberJS-5-8\modern-portal>npx ember serve -p 5000
+```
